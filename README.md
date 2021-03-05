@@ -472,7 +472,7 @@ Simply put, like in traditional deals, smart contracts must transfer some type o
 How are smart contracts enforced? There are existing laws that already recognize the use and legal nature of smart contracts. These tools can assure businesses of their legality and security. For instance, in USS one such law is the *Uniform Electronic Signatures Act and Electronic Signatures in Global and National Commerce Act*. This existing statute already recognizes, allows, and validates the use of electronic signatures and electronic records. This involves those that use blockchain. The law is ij USA ready. Users only need to work closely work with lawyers and use it with caution.
 
 
-# How is going the use of Smart Contracts?
+# How is going to use of Smart Contracts?
 
 Smart contracts help you exchange money, property, shares, and virtually anything of value. You can all these in a problem-free and transparent way, without needing the traditionally ubiquitous middleman. Using smart contracts is simply inevitable that as technology continues to change how people conduct business as we know it. This new way of creating and executing contracts is already providing numerous advantages to existing users. It includes a very high level of security, cost and time savings, anti-tampering feature. 
 
