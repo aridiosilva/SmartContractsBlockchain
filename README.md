@@ -98,7 +98,7 @@ It’s like a typical application that implements some business rules. It can on
 > - **1- Identify Agreement** - *Parties engaged in the smart contract determine a shared, agreed opportunity and intended results. Possible agreements are vast, from simple business transactions and rights transfer to asset swaps*
 > - **2- Set Conditions** - *Parties can decide either to initiate their digital contracts by themselves or by fulfilling certain criteria such as natural disasters or financial market movements. Other conditions that could launch smart contracts include religious occasions or important holidays.*
 > - **3- Code the Business Logic** - *Like other computer programs, a smart contract is an application designed to automatically perform once the conditional parameters are reached.*
-> -**4- Encryption & Blockchain Technology** - *In a blockchain, encryption is used. This provides the needed security in authenticating and verifying the messages exchanged among the involved parties.*
+> - **4- Encryption & Blockchain Technology** - *In a blockchain, encryption is used. This provides the needed security in authenticating and verifying the messages exchanged among the involved parties.*
 > - **5- Processing & Execution** - *A smart contract gets written to a block in a blockchain iteration. This occurs after reaching consensus via validation and authentication. Once the code is executed, the results are memorized for verification and compliance.*
 > - **6- Network Updates** - *Every computer connected to a blockchain network automatically updates its ledgers. This demonstrates the blockchain’s new state. Upon authentication and posting, no one can alter a record in a blockchain. Only append-only actions can be done.*
 
