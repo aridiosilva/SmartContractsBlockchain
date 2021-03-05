@@ -1,5 +1,8 @@
 # BlockChain Smart Contracts
 
+![traditionlxsmartcontracts](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/smart-vs-traditional.png)
+
+
 ##  What are Blockchain Smart Contracts ?
 
 A smart contract is a computer program or a transaction protocol which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement.
