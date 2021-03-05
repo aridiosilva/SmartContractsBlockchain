@@ -93,7 +93,7 @@ It’s like a typical application that implements some business rules. It can on
 
 # What are the benefits of Smart Contracts?
 
-![Traditional-vs-Smart-Contracts](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/Traditional-vs-Smart-Contracts0001.png)
+![Traditional-vs-Smart-Contracts](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/Traditional-vs-Smart-Contracts0002.jpg)
 
 Here are some of the major benefits that smart contracts can bring to your business:
 
