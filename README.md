@@ -46,7 +46,20 @@ End clients interact with a smart contract through transactions. Such transactio
 
 ## Blockchain Platforms Supporting Smart Contracts
 
-> - **Ethereum** - *Implements a Turing-complete language on its blockchain, a prominent smart contract framework. Ethereum was specifically created and designed to support smart contrats. Smart Contrats can be programmed in a special programmming language called Ethereum Solidity. This language was created by Ethereum and uses a syntax that resembles JavaScript.*
+> - **Ethereum** - * Ethereum is a gold standard in the world of smart contracts and has the biggest capitalisation among other platforms. The majority of token sales happen on the Ethereum platform, using the ERC-20 token standard. There are various ERC standards and more are coming up as we speak. Implements a Turing-complete language on its blockchain, a prominent smart contract framework. Ethereum was specifically created and designed to support smart contrats. Smart Contrats can be programmed in a special programmming language called Ethereum Solidity. This language was created by Ethereum and uses a syntax that resembles JavaScript. The link to documentation site can be found [here](http://www.ethdocs.org/en/latest/introduction/web3.html#smart-contracts).*
+
+'''solidity
+pragma solidity ^0.4.0;
+
+contract SimpleStorage {
+    uint storedData;
+    function set(uint x) public {
+        storedData = x;
+    }
+    function get() public constant returns (uint) {
+        return storedData;
+    }
+'''
 > 
 > - **Bitcoin** - *Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator. Smart Contracts in Bitcoin platform it´s a lot more limited compared to Ethereum Platform.*
 > 
