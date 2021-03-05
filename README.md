@@ -8,6 +8,14 @@ Blockchains are far more secure, inexpensive, and faster versus other technologi
 
 A smart contract is a computer program or a transaction protocol which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement.
 
+Other simple smart contract definition is that it is a group of computer codes that can self-execute when predetermined conditions are met. A blockchain or a distributed ledger holds the transaction outcomes. People typically pay for the services of a notary public or a lawyer to have their documents processed. With smart contracts, they can create, enforce, and complete a deal or agreement by themselves. These allow people to execute deals without any third party. Smart contracts don’t only establish the penalties and other obligations of an agreement like how a traditional contract does. They can carry them out automatically.  These digital contracts offer numerous potential applications in various industries. Smart contracts already work in tandem with the predicted currency of the future–bitcoins.
+
+## Three Essential Aspects of a Smart Contract
+
+> - First, a smart contract is a computerized agreement between two individuals. Smart contracts exist on a blockchain—a public database—which make them immutable.
+> - Second, a blockchain executes a smart contract. This means the agreement can be done without relying on a third-party mediation. 
+> - Third, its transactions only transpire once the agreement conditions are fulfilled. This eliminates trust issues from emerging.
+
 ## What are the Objectives of Smart Contracts ?
 
 The objectives of smart contracts are the reduction of need in trusted intermediators, arbitrations and enforcement costs, fraud losses, as well as the reduction of malicious and accidental exceptions.
