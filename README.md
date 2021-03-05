@@ -2,7 +2,7 @@
 
 ![traditionlxsmartcontracts](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/smart-vs-traditional.png)
 
-- [Smart Contracts Simples Explained in this Video](https://youtu.be/ZE2HxTmxfrI)
+- [Smart Contracts Simple Explained in this Video](https://youtu.be/ZE2HxTmxfrI)
 
 Blockchains are far more secure, inexpensive, and faster versus other technologies. Their vast advantages are compelling more and more global organizations to use smart contracts in their operations. Governments, banks and other organizations across the world are increasingly deploying them. The global smart contracts market is expected to increase the values year by year exponentially. Smart contracts have myriad applications. As a form of smart contracts law, many organizations now use them for legal processes and property law. Banks utilize smart contracts examples from basic financial services to the more complicated financial derivatives. Crowdfunding agreements, insurance premiums, and others use smart contract to expedite their transactions.
 
