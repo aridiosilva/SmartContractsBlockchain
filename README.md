@@ -46,7 +46,9 @@ End clients interact with a smart contract through transactions. Such transactio
 
 ## Blockchain Platforms Supporting Smart Contracts
 
-> - **Ethereum** - * Ethereum is a gold standard in the world of smart contracts and has the biggest capitalisation among other platforms. The majority of token sales happen on the Ethereum platform, using the ERC-20 token standard. There are various ERC standards and more are coming up as we speak. Implements a Turing-complete language on its blockchain, a prominent smart contract framework. Ethereum was specifically created and designed to support smart contrats. Smart Contrats can be programmed in a special programmming language called Ethereum Solidity. This language was created by Ethereum and uses a syntax that resembles JavaScript. The link to documentation site can be found [here](http://www.ethdocs.org/en/latest/introduction/web3.html#smart-contracts).*
+### Ethereum
+
+*Ethereum is a gold standard in the world of smart contracts and has the biggest capitalisation among other platforms. The majority of token sales happen on the Ethereum platform, using the ERC-20 token standard. There are various ERC standards and more are coming up as we speak. Implements a Turing-complete language on its blockchain, a prominent smart contract framework. Ethereum was specifically created and designed to support smart contrats. Smart Contrats can be programmed in a special programmming language called Ethereum Solidity. This language was created by Ethereum and uses a syntax that resembles JavaScript. The link to documentation site can be found [here](http://www.ethdocs.org/en/latest/introduction/web3.html#smart-contracts).*
 
 
 ```solidity
@@ -63,16 +65,163 @@ contract SimpleStorage {
 }
 ```
 
-> - **Bitcoin** - *Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator. Smart Contracts in Bitcoin platform it´s a lot more limited compared to Ethereum Platform.*
-> 
-> - **Ripple (Codius)** - * Ripple is a real-time gross payment system first-conceived in 2004 by Ryan Fugger and officially launched in 2012. Its goal is to eliminate the high transaction fees and processing delays of online payments by providing a frictionless experience when sending money globally with the power of blockchain technology. But Smart contract development halted in 2015.*
-> 
-> - **EOS.Io** - *A blockchain platform for smart contracts.*
->
-> - **Tezos** - *A blockchain platform modifying its own set of rules with minimal disruption to the network through an on-chain governance model.*
-> - **Hyperledger Fabric (HLF)** - Call its smart contracts chaincode. HLF is an enterprise private blockchain, built with great flexibility, which makes it very useful for businesses as their business rules change after approximately 7 years. Most other blockchains are not built considering flexibility. The three most important functions are:
-i) PutState: Create new asset or update existing one; ii) •	GetState: Retrieve asset; iii) •	GetHistoryForKey : Retrieve history of changes; iv) DelState: Delete asset; The link to documentation site can be found [here](https://hyperledger-fabric.readthedocs.io/).*
->
+### Bitcoin
+
+*Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator. Smart Contracts in Bitcoin platform it´s a lot more limited compared to Ethereum Platform.*
+
+### NEM
+
+Scalability is the most critical thing about NEM’s decentralized application. While ETH does a maximum of 15 transactions per second, NEM reportedly manages hundreds of transactions per second. The NEM foundation has given security and availability a priority so entrepreneurs deal with other problems and not technical difficulties.While NEM is reportedly the faster, safer and easier technology, Ethereum provides a broader base for the creation of custom DApps.
+Where Ethereum is targeting companies intend to rebuild internal networks in the next 5 to 10 years, NEM is targeting companies looking for a fast, secure, and ready to use and handle solution that’s current.
+An example of NEM code is given below:
+
+```javascript
+
+//Include the library
+var nem require(".. ./build/index.js")
+
+/ Create an NIS endpoint object
+ var endpoint - nem.model.objects.create( endpoint
+// Create a common object holding key
+var common - nem.model.objects.create("common
+ I/Create an un-prepared transfer transaction object
+var transferTransaction nem.model.objects
+
+// Prepare the transfer transaction object
+ var transactionEntity nem.model.transactions
+// Serialize transfer transaction and announce
+nem.model.transactions.send(common,
+transactionEntity, endpoint);
+```
+
+The link to the documentation site can be found [here](https://nemproject.github.io/)
+
+
+### Ripple (Codius)
+
+*Ripple is a real-time gross payment system first-conceived in 2004 by Ryan Fugger and officially launched in 2012. ts goal is to eliminate the high transaction fees and processing delays of online payments by providing a frictionless experience when sending money globally with the power of blockchain technology. But Smart contract development halted in 2015.*
+
+ 
+### EOS.Io
+
+*A blockchain platform for smart contracts.*
+
+
+### Tezos
+
+*A blockchain platform modifying its own set of rules with minimal disruption to the network through an on-chain governance model.*
+
+### Hyperledger Fabric (HLF)
+
+*Call its smart contracts chaincode. HLF is an enterprise private blockchain, built with great flexibility, which makes it very useful for businesses as their business rules change after approximately 7 years. Most other blockchains are not built considering flexibility. The three most important functions are:
+
+1) **PutState**: Create new asset or update existing one; 
+1) **GetState**: Retrieve asset; 
+1) **GetHistoryForKey**: Retrieve history of changes; 
+1) **DelState**: Delete asset; 
+
+HyperLedger Fabric — Most of the chaincode (smart contracts built using HyperLedger Fabrics) is written in Golang. They also have a Java SDK for developing blockchain applications.
+
+```goland
+package main
+
+import (
+    "fmt"
+
+    "github.com/hyperledger/fabric/core/chaincode/shim"
+    "github.com/hyperledger/fabric/protos/peer"
+)
+
+// SimpleAsset implements a simple chaincode to manage an asset
+type SimpleAsset struct {
+}
+
+// Init is called during chaincode instantiation to initialize any
+// data. Note that chaincode upgrade also calls this function to reset
+// or to migrate data.
+func (t *SimpleAsset) Init(stub shim.ChaincodeStubInterface) peer.Response {
+    // Get the args from the transaction proposal
+    args := stub.GetStringArgs()
+    if len(args) != 2 {
+            return shim.Error("Incorrect arguments. Expecting a key and a value")
+    }
+
+    // Set up any variables or assets here by calling stub.PutState()
+
+    // We store the key and the value on the ledger
+    err := stub.PutState(args[0], []byte(args[1]))
+    if err != nil {
+            return shim.Error(fmt.Sprintf("Failed to create asset: %s", args[0]))
+    }
+    return shim.Success(nil)
+}
+
+// Invoke is called per transaction on the chaincode. Each transaction is
+// either a 'get' or a 'set' on the asset created by Init function. The Set
+// method may create a new asset by specifying a new key-value pair.
+func (t *SimpleAsset) Invoke(stub shim.ChaincodeStubInterface) peer.Response {
+    // Extract the function and args from the transaction proposal
+    fn, args := stub.GetFunctionAndParameters()
+
+    var result string
+    var err error
+    if fn == "set" {
+            result, err = set(stub, args)
+    } else { // assume 'get' even if fn is nil
+            result, err = get(stub, args)
+    }
+    if err != nil {
+            return shim.Error(err.Error())
+    }
+
+    // Return the result as success payload
+    return shim.Success([]byte(result))
+}
+
+// Set stores the asset (both key and value) on the ledger. If the key exists,
+// it will override the value with the new one
+func set(stub shim.ChaincodeStubInterface, args []string) (string, error) {
+    if len(args) != 2 {
+            return "", fmt.Errorf("Incorrect arguments. Expecting a key and a value")
+    }
+
+    err := stub.PutState(args[0], []byte(args[1]))
+    if err != nil {
+            return "", fmt.Errorf("Failed to set asset: %s", args[0])
+    }
+    return args[1], nil
+}
+
+// Get returns the value of the specified asset key
+func get(stub shim.ChaincodeStubInterface, args []string) (string, error) {
+    if len(args) != 1 {
+            return "", fmt.Errorf("Incorrect arguments. Expecting a key")
+    }
+
+    value, err := stub.GetState(args[0])
+    if err != nil {
+            return "", fmt.Errorf("Failed to get asset: %s with error: %s", args[0], err)
+    }
+    if value == nil {
+            return "", fmt.Errorf("Asset not found: %s", args[0])
+    }
+    return string(value), nil
+}
+
+// main function starts up the chaincode in the container during instantiate
+func main() {
+    if err := shim.Start(new(SimpleAsset)); err != nil {
+            fmt.Printf("Error starting SimpleAsset chaincode: %s", err)
+    }
+}
+
+```
+
+
+The link to documentation site can be found [here](https://hyperledger-fabric.readthedocs.io/).*
+
+
+
 > - **iOlite** - *Is a product which focuses on the mass adoption of smart contract technology by providing an easy to use engine which is capable of understanding natural language to be compiled to smart contract code It is based on FAE (Fast adaption engine) FAE is capable of converting natural language into smart contract code. The link for documentation site can be found [here](https://iolite.io/documentation).*
 > 
 > - **Stellar Smart Contracts** - *Stellar smart contracts (SSC) are much different from Ethereum smart contracts. They are not Turing complete and are implemented as an agreement between multiple parties and enforced by transactions. You can read more about stellar smart contracts in the official documentation [here](https://www.stellar.org/developers/guides/walkthroughs/stellar-smart-contracts.html). An SSC is expressed as compositions of transactions that are connected and executed using various constraints. Some of the constraints are: a)	Multi-signature — What keys are needed to authorise a certain operation? What parties need to agree on a circumstance in order to execute the steps? b) Batching/ Atomicity — What operations must all occur together or fail? What must happen in order to force this to fail or pass? c) Sequence — In what order should a series of transactions be processed? What are the limitations and dependencies? e d)Time Bounds — When can a transaction be processed?*
