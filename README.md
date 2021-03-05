@@ -48,7 +48,8 @@ End clients interact with a smart contract through transactions. Such transactio
 
 > - **Ethereum** - * Ethereum is a gold standard in the world of smart contracts and has the biggest capitalisation among other platforms. The majority of token sales happen on the Ethereum platform, using the ERC-20 token standard. There are various ERC standards and more are coming up as we speak. Implements a Turing-complete language on its blockchain, a prominent smart contract framework. Ethereum was specifically created and designed to support smart contrats. Smart Contrats can be programmed in a special programmming language called Ethereum Solidity. This language was created by Ethereum and uses a syntax that resembles JavaScript. The link to documentation site can be found [here](http://www.ethdocs.org/en/latest/introduction/web3.html#smart-contracts).*
 
-'''javaScript
+
+```solidity
 pragma solidity ^0.4.0;
 
 contract SimpleStorage {
@@ -59,8 +60,9 @@ contract SimpleStorage {
     function get() public constant returns (uint) {
         return storedData;
     }
-'''
-> 
+}
+```
+
 > - **Bitcoin** - *Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator. Smart Contracts in Bitcoin platform it´s a lot more limited compared to Ethereum Platform.*
 > 
 > - **Ripple (Codius)** - * Ripple is a real-time gross payment system first-conceived in 2004 by Ryan Fugger and officially launched in 2012. Its goal is to eliminate the high transaction fees and processing delays of online payments by providing a frictionless experience when sending money globally with the power of blockchain technology. But Smart contract development halted in 2015.*
