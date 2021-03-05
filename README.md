@@ -137,7 +137,7 @@ The link for documentation site can be found [here](https://github.com/ripple/ri
 
 ### 4 - EOS.Io
 
-*A blockchain platform for smart contracts.Can be use C++ or Java to develop smart contracts using the EOSIO Platform.*
+*A blockchain platform for smart contracts.Can be use C++, Swift, JavaScript or Java to develop smart contracts using the EOSIO Platform.*
 
 The link for documentation site can be found [here](https://developers.eos.io/welcome/latest/getting-started-guide/index)
 
