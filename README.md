@@ -51,6 +51,9 @@ End clients interact with a smart contract through transactions. Such transactio
 > - **Ripple (Codius)** - * Ripple is a real-time gross payment system first-conceived in 2004 by Ryan Fugger and officially launched in 2012. Its goal is to eliminate the high transaction fees and processing delays of online payments by providing a frictionless experience when sending money globally with the power of blockchain technology. But Smart contract development halted in 2015.*
 > - **EOS.Io** - *A blockchain platform for smart contracts.*
 > - **Tezos** - *A blockchain platform modifying its own set of rules with minimal disruption to the network through an on-chain governance model.*
+> - **Cardano** -  *Similar to Ethereum, Cardano is a smart contract platform however, Cardano offers scalability and security through layered architecture. Cardano’s approach is unique in the space itself since it is built on scientific philosophy and peer-reviewed academic research. The contact language used is Plutus.*
+> - **Stellar Smart Contracts** - *Stellar smart contracts (SSC) are much different from Ethereum smart contracts. They are not Turing complete and are implemented as an agreement between multiple parties and enforced by transactions. You can read more about stellar smart contracts in the official documentation here. An SSC is expressed as compositions of transactions that are connected and executed using various constraints.*
+
 
 ## Smart Contract Eexecution
 
