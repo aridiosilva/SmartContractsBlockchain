@@ -108,6 +108,36 @@ contract SimpleStorage {
 
 *Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator. Smart Contracts in Bitcoin platform it´s a lot more limited compared to Ethereum Platform.*
 
+```solidity
+/// TRC20.sol -- API for the TRC20 token standard
+
+// See <https://github.com/tronprotocol/tips/blob/master/tip-20.md>.
+
+// This file likely does not meet the threshold of originality
+// required for copyright to apply.  As a result, this is free and
+// unencumbered software belonging to the public domain.
+
+pragma solidity >=0.4.25;
+
+contract TRC20Events {
+    event Approval(address indexed src, address indexed guy, uint wad);
+    event Transfer(address indexed src, address indexed dst, uint wad);
+}
+
+contract TRC20 is TRC20Events {
+    function totalSupply() public view returns (uint);
+    function balanceOf(address guy) public view returns (uint);
+    function allowance(address src, address guy) public view returns (uint);
+
+    function approve(address guy, uint wad) public returns (bool);
+    function transfer(address dst, uint wad) public returns (bool);
+    function transferFrom(
+        address src, address dst, uint wad
+    ) public returns (bool);
+}
+```
+
+
 ### 3 - Ripple (Codius)
 
 *Ripple is a real-time gross payment system first-conceived in 2004 by Ryan Fugger and officially launched in 2012. ts goal is to eliminate the high transaction fees and processing delays of online payments by providing a frictionless experience when sending money globally with the power of blockchain technology. But Smart contract development halted in 2015.*
