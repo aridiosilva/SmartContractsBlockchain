@@ -122,7 +122,7 @@ The link to the documentation site can be found [here](https://nemproject.github
 
 HyperLedger Fabric — Most of the chaincode (smart contracts built using HyperLedger Fabrics) is written in Golang. They also have a Java SDK for developing blockchain applications.
 
-```goland
+```golang
 package main
 
 import (
