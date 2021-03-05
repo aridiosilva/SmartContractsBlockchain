@@ -118,5 +118,43 @@ Supply chains usually involve negotiations. They would stand to benefit immensel
 
 The system can execute deals and manage approvals. Smart contracts can be used regardless of the type of marketplace or the things being sold.
 
+# How does a smart contract work?
 
+A smart contract is a computer application that operates inside a blockchain. Two or several parties agree to the set of rules stored in the contract.
 
+It’s like a typical application that implements some business rules. It can only use a blockchain as a database. Here are the key aspects of a smart contract:
+
+## 1- Identify Agreement
+
+Parties engaged in the smart contract determine a shared, agreed opportunity and intended results. Possible agreements are vast, from simple business transactions and rights transfer to asset swaps.
+
+## 2- Set Conditions
+
+Parties can decide either to initiate their digital contracts by themselves or by fulfilling certain criteria such as natural disasters or financial market movements. 
+Other conditions that could launch smart contracts include religious occasions or important holidays.
+
+## 3- Code the Business Logic
+
+Like other computer programs, a smart contract is an application designed to automatically perform once the conditional parameters are reached.
+
+## 4- Encryption & Blockchain Technology
+
+In a blockchain, encryption is used. This provides the needed security in authenticating and verifying the messages exchanged among the involved parties.
+
+## 5- Processing & Execution
+
+A smart contract gets written to a block in a blockchain iteration. This occurs after reaching consensus via validation and authentication. Once the code is executed, the results are memorized for verification and compliance.
+
+## 6- Network Updates
+
+Every computer connected to a blockchain network automatically updates its ledgers. This demonstrates the blockchain’s new state. Upon authentication and posting, no one can alter a record in a blockchain. Only append-only actions can be done.
+
+# What are the benefits of Smart Contracts?
+
+Here are some of the major benefits that smart contracts can bring to your business:
+
+> - **Direct business relationships** - *The blockchain continues to function as prearranged. All agreed terms and conditions are accessible and visible to concerned parties. Because of its design, it’s impossible to dispute the stipulations the moment a smart contract has been determined. This makes smart contracts highly reliable.*
+> - **Integrity & Trustworthiness** - *The network will sustain its integrity. The terms and conditions of smart contracts are visible and accessible to trusted parties. There’s no way to dispute the conditions of a smart contract. The parties can fully rely on the smart contract.*
+> - **Speed & Security** - *Smart contracts use code and live on the internet. They execute transactions quickly. This saves time for many business processes and eliminates the need to process documents manually. Smart contracts use the same level of security as a cryptocurrency. As of today, they’re the safest way to store data on the web.*
+> - **Efficient records keeping** - * Each smart contract is a digital record that can be easily stored and accessed as needed.*
+> - **Paper-free** - * Smart contracts are stored digital space, securely and cost-efficiently.*
