@@ -2,6 +2,7 @@
 
 ![traditionlxsmartcontracts](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/smart-vs-traditional.png)
 
+Blockchains are far more secure, inexpensive, and faster versus other technologies. Their vast advantages are compelling more and more global organizations such as Microsoft to use smart contracts in their operations. Governments, banks and other organizations across the world are increasingly deploying them. The global smart contracts market is expected to reach US$300 million by 2023. Smart contracts have myriad applications. As a form of smart contracts law, many organizations now use them for legal processes and property law. Banks utilize smart contracts examples from basic financial services to the more complicated financial derivatives. Crowdfunding agreements, insurance premiums, and others use smart contract to expedite their transactions.
 
 ##  What are Blockchain Smart Contracts ?
 
