@@ -112,7 +112,27 @@ contract SimpleStorage {
 
 *Ripple is a real-time gross payment system first-conceived in 2004 by Ryan Fugger and officially launched in 2012. ts goal is to eliminate the high transaction fees and processing delays of online payments by providing a frictionless experience when sending money globally with the power of blockchain technology. But Smart contract development halted in 2015.*
 
- 
+```json
+{
+  "source": {
+    "address": "r9cZA1mLK5R5Am25ArfXFmqgNwjZgnfk59",
+    "maxAmount": {
+      "value": "0.01",
+      "currency": "USD",
+      "counterparty": "rMH4UxPrbuMa1spCBR98hLLyNJp4d8p4tM"
+    }
+  },
+  "destination": {
+    "address": "rpZc4mVfWUif9CRoHRKKcmhu1nx2xktxBo",
+    "amount": {
+      "value": "0.01",
+      "currency": "USD",
+      "counterparty": "rMH4UxPrbuMa1spCBR98hLLyNJp4d8p4tM"
+    }
+  }
+}
+```
+
 ### 4 - EOS.Io
 
 *A blockchain platform for smart contracts.*
