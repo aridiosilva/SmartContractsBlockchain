@@ -137,8 +137,70 @@ The link for documentation site can be found [here](https://github.com/ripple/ri
 
 ### 4 - EOS.Io
 
-*A blockchain platform for smart contracts.*
+*A blockchain platform for smart contracts.Can be use C++ or Java to develop smart contracts using the EOSIO Platform.*
 
+The link for documentation site can be found [here](https://developers.eos.io/welcome/latest/getting-started-guide/index)
+
+```java
+IRPCProvider rpcProvider = new EosioJavaRpcProviderImpl("https://baseurl.com/v1/");
+ISerializationProvider serializationProvider = new AbiEosSerializationProviderImpl();
+IABIProvider abiProvider = new ABIProviderImpl(rpcProvider, serializationProvider);
+ISignatureProvider signatureProvider = new SoftKeySignatureProviderImpl();
+
+signatureProvider.importKey(privateKeyK1EOS);
+// or...
+signatureProvider.importKey(privateKeyR1EOS);
+
+TransactionSession session = new TransactionSession(
+        serializationProvider,
+        rpcProvider,
+        abiProvider,
+        signatureProvider
+);
+
+TransactionProcessor processor = session.getTransactionProcessor();
+
+// Now the TransactionConfig can be altered, if desired
+TransactionConfig transactionConfig = processor.getTransactionConfig();
+
+// Use blocksBehind (default 3) the current head block to calculate TAPOS
+transactionConfig.setUseLastIrreversible(false);
+// Set the expiration time of transactions 600 seconds later than the timestamp
+// of the block used to calculate TAPOS
+transactionConfig.setExpiresSeconds(600);
+
+// Update the TransactionProcessor with the config changes
+processor.setTransactionConfig(transactionConfig);
+
+String jsonData = "{\n" +
+        "\"from\": \"person1\",\n" +
+        "\"to\": \"person2\",\n" +
+        "\"quantity\": \"10.0000 EOS\",\n" +
+        "\"memo\" : \"Something\"\n" +
+        "}";
+
+List<Authorization> authorizations = new ArrayList<>();
+authorizations.add(new Authorization("myaccount", "active"));
+List<Action> actions = new ArrayList<>();
+actions.add(new Action("eosio.token", "transfer", authorizations, jsonData));
+
+processor.prepare(actions);
+
+SendTransactionResponse sendTransactionResponse = processor.signAndBroadcast();
+
+// Starting with EOSIO 2.1 actions can have return values associated with them.
+// If the actions have return values they can be accessed from the response.
+ArrayList<Object> actionReturnValues = sendTransactionResponse.getActionValues();
+
+// Or
+try {
+    Double actionReturnValue = response.getActionValueAtIndex(index, Double.class);
+} catch (IndexOutOfBoundsException outOfBoundsError) {
+    // Handle out of bounds error
+} catch (ClassCastException castError) {
+    // Handle class casting error
+}
+```
 
 ### 5 - Tezos
 
