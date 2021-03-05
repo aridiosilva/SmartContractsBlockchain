@@ -103,3 +103,7 @@ Here are some of the major benefits that smart contracts can bring to your busin
 
 ![Traditional-vs-Smart-Contracts](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/Traditional-vs-Smart-Contracts0003.png)
 
+# How is going the use of Smart Contracts?
+
+Smart contracts help you exchange money, property, shares, and virtually anything of value. You can all these in a problem-free and transparent way, without needing the traditionally ubiquitous middleman. Using smart contracts is simply inevitable that as technology continues to change how people conduct business as we know it. This new way of creating and executing contracts is already providing numerous advantages to existing users. It includes a very high level of security, cost and time savings, anti-tampering feature. 
+
