@@ -1,5 +1,10 @@
 # BlockChain Smart Contracts
 
+The concept and idea of Smart Contracts was born with Nick Szabo in his paper originally published in 1997, as we can see the the link below:
+
+- [The Idea of Smart Contracts Nick Szabo published in 1997](https://nakamotoinstitute.org/the-idea-of-smart-contracts/)
+
+
 ![traditionlxsmartcontracts](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/smart-vs-traditional.png)
 
 - [Smart Contracts simply explained in this video](https://youtu.be/ZE2HxTmxfrI)
