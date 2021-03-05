@@ -112,7 +112,7 @@ contract SimpleStorage {
 
 *Ripple is a real-time gross payment system first-conceived in 2004 by Ryan Fugger and officially launched in 2012. ts goal is to eliminate the high transaction fees and processing delays of online payments by providing a frictionless experience when sending money globally with the power of blockchain technology. But Smart contract development halted in 2015.*
 
-```json
+```javascript
 {
   "source": {
     "address": "r9cZA1mLK5R5Am25ArfXFmqgNwjZgnfk59",
