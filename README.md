@@ -103,6 +103,27 @@ Here are some of the major benefits that smart contracts can bring to your busin
 
 ![Traditional-vs-Smart-Contracts](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/Traditional-vs-Smart-Contracts0003.png)
 
+# Is a Smart Contract Legally Binding?
+
+## Are Smart Contracts Legal?
+
+The main concept behind smart contracts is using programs to administer the stipulations of a contract. It uses of cryptography to guarantee fraud protection, transparency, and anti-tampering. These digital contracts automatically warrant assumed legality. There’s no specific smart contract law yet. Smart contracts should be considered as software programs that can assume a contractual nature when the engaging parties decide to do so. They’re a tool to enforce legality. They’re not by themselves inherently legal instruments. 
+
+## Three Elements of a Contract
+
+Having said that, a legally-binding smart contract must necessarily fulfill the three elements of a traditional contract. 
+
+> - First, a party must initiate an offer. 
+> - Second, the counterparty must agree to the offered terms. 
+> - Third, parties bargain on shared promises and obligations.
+
+Simply put, like in traditional deals, smart contracts must transfer some type of value at a present or upcoming time.
+
+## Legal basis
+
+How are smart contracts enforced? There are existing laws that already recognize the use and legal nature of smart contracts. These tools can assure businesses of their legality and security. For instance, one such law is the Uniform Electronic Signatures Act and Electronic Signatures in Global and National Commerce Act. This existing statute already recognizes, allows, and validates the use of electronic signatures and electronic records. This involves those that use blockchain. The law is ready in some countries. Users only need to work closely work with lawyers and use it with caution.
+
+
 # How is going the use of Smart Contracts?
 
 Smart contracts help you exchange money, property, shares, and virtually anything of value. You can all these in a problem-free and transparent way, without needing the traditionally ubiquitous middleman. Using smart contracts is simply inevitable that as technology continues to change how people conduct business as we know it. This new way of creating and executing contracts is already providing numerous advantages to existing users. It includes a very high level of security, cost and time savings, anti-tampering feature. 
