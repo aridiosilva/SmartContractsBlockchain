@@ -93,10 +93,13 @@ It’s like a typical application that implements some business rules. It can on
 
 # What are the benefits of Smart Contracts?
 
+![Traditional-vs-Smart-Contracts](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/Traditional-vs-Smart-Contracts0001.png)
+
 Here are some of the major benefits that smart contracts can bring to your business:
 
 > - **Direct business relationships** - *The blockchain continues to function as prearranged. All agreed terms and conditions are accessible and visible to concerned parties. Because of its design, it’s impossible to dispute the stipulations the moment a smart contract has been determined. This makes smart contracts highly reliable.*
 > - **Integrity & Trustworthiness** - *The network will sustain its integrity. The terms and conditions of smart contracts are visible and accessible to trusted parties. There’s no way to dispute the conditions of a smart contract. The parties can fully rely on the smart contract.*
 > - **Speed & Security** - *Smart contracts use code and live on the internet. They execute transactions quickly. This saves time for many business processes and eliminates the need to process documents manually. Smart contracts use the same level of security as a cryptocurrency. As of today, they’re the safest way to store data on the web.*
 > - **Efficient records keeping** - * Each smart contract is a digital record that can be easily stored and accessed as needed.*
-> - **Paper-free** - * Smart contracts are stored digital space, securely and cost-efficiently.*
+> - **Paper-free** - * Smart contracts are stored digital space, securely and cost-efficiently.*> 
+
