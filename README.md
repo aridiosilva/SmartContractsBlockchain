@@ -242,7 +242,7 @@ b) **Batching/ Atomicity** — What operations must all occur together or fail? 
 c) **Sequence** — In what order should a series of transactions be processed? What are the limitations and dependencies? e 
 d) **Time Bounds** — When can a transaction be processed?*
 
-```
+```javascript
 A sample code is given below:
 const newKey = Stellar.Keypair.random();
 const transaction = new Stellar.TransactionBuilder(ownerAccount)
@@ -257,8 +257,19 @@ return StellarConfig.server.submitTransaction(transaction);
 
 You can read more about stellar smart contracts in the official documentation [here](https://www.stellar.org/developers/guides/walkthroughs/stellar-smart-contracts.html). 
  
-> - **Cardano** -  *Similar to Ethereum, Cardano is a smart contract platform however, Cardano offers scalability and security through layered architecture. Cardano’s approach is unique in the space itself since it is built on scientific philosophy and peer-reviewed academic research. The contact language used is Plutus.*
+### Cardano
 
+*Similar to Ethereum, Cardano is a smart contract platform however, Cardano offers scalability and security through layered architecture. Cardano’s approach is unique in the space itself since it is built on scientific philosophy and peer-reviewed academic research. The contact language used is Plutus.*
+
+```plutus
+add : Nat -> Nat -> Nat {
+  add = \m n ->
+    case m of {
+      Zero -> n ;
+      Suc m' -> Suc (add m' n)
+    }
+}
+```
 
 ## Smart Contract Eexecution
 
