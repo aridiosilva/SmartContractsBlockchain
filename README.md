@@ -65,7 +65,7 @@ End clients interact with a smart contract through transactions. Such transactio
 | [Ethereum](https://www.ethereum.org/)  | EVM            |  Solidity                                                   | Yes   | CA    |Switzerland  |2014.04|2015.07   |
 | [Ethereum Classic](https://ethereumclassic.github.io/)| EVM |  Solidity                                              | Yes   | ^^^   | no          | ^^^   | ^^^      |
 | [Exonum](https://exonum.com)           | ?              |  Rust. Java bindings TBD                                    | No    | UA    |Netherlands  |       |2017.07   |
-| hyperledger                            | Sandbox        | Goland, Java SDK                                         | ?     |    
+| [hyperledger](https://hyperledger-fabric.readthedocs.io/en/release-1.3/)                            | Sandbox        | Goland, Java SDK                                         | ?     |    
 | [Lisk](https://lisk.io/)               | N/A            |  Javascript
 | [Nem](https://nem.io/)                 | Offchiain      |  ?                                                          | ?     |
 | [Neo](https://neo.org/)                | NeoVM          |  1st batch: dotNet; 2nd: Java,Kotlin; 3rd: C,C++,GO,Py,JS (TBD)| Yes| China | China       |2014.06|2016.10   |
