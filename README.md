@@ -48,7 +48,7 @@ End clients interact with a smart contract through transactions. Such transactio
 
 > - **Ethereum** - *Implements a Turing-complete language on its blockchain, a prominent smart contract framework. Ethereum was specifically created and designed to support smart contrats. Smart Contrats can be programmed in a special programmming language called Ethereum Solidity. This language was created by Ethereum and uses a syntax that resembles JavaScript.*
 > - **Bitcoin** - *Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator. Smart Contracts in Bitcoin platform it´s a lot more limited compared to Ethereum Platform.*
-> - **Ripple (Codius)** - *Smart contract development halted in 2015.*
+> - **Ripple (Codius)** - * Ripple is a real-time gross payment system first-conceived in 2004 by Ryan Fugger and officially launched in 2012. Its goal is to eliminate the high transaction fees and processing delays of online payments by providing a frictionless experience when sending money globally with the power of blockchain technology. But Smart contract development halted in 2015.*
 > - **EOS.Io** - *A blockchain platform for smart contracts.*
 > - **Tezos** - *A blockchain platform modifying its own set of rules with minimal disruption to the network through an on-chain governance model.*
 
