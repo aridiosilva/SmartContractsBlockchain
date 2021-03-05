@@ -35,25 +35,11 @@ End clients interact with a smart contract through transactions. Such transactio
 
 ## Blockchain Platforms Supporting Smart Contracts
 
-### Bitcoin	
-
-Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator.
-
-### Ethereum	
-
-Implements a Turing-complete language on its blockchain, a prominent smart contract framework
-
-### Ripple (Codius)	
-
-Smart contract development halted in 2015.
-
-### EOS.IO	
-
-A blockchain platform for smart contracts
-
-### Tezos	
-
-A blockchain platform modifying its own set of rules with minimal disruption to the network through an on-chain governance model.
+> - **Bitcoin** - *Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator.*
+> - **Ethereum** - *Implements a Turing-complete language on its blockchain, a prominent smart contract framework.*
+> - **Ripple (Codius)** - *Smart contract development halted in 2015.*
+> - **EOS.Io** - *A blockchain platform for smart contracts.*
+> - **Tezos** - *A blockchain platform modifying its own set of rules with minimal disruption to the network through an on-chain governance model.*
 
 ## Smart Contract Eexecution
 
