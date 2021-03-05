@@ -51,6 +51,40 @@ End clients interact with a smart contract through transactions. Such transactio
 
 ## Blockchain Platforms Supporting Smart Contracts
 
+## Platforms list
+
+| Platform name                          | Engine         | Contract language                                           | Live? |Origin | Inc. in     | Est.  | Pub. rel.|
+|----------------------------------------|----------------|:-----------------------------------------------------------:|------:|------:|------------:|------:|----------|
+| [Aeternity](https://aeternity.com/)    | HLM, FTWVM, AEVM | [Sophia, Varna, Solidity](https://github.com/aeternity/protocol/blob/master/contracts/contract_vms.md) | no | FL | Liechtenstein | 2017 | |
+| [Bitcoin](https://bitcoin.org/)        | Bitcoin script |  [Ivy-lang](https://docs.ivy-lang.org), [Balzac](https://blockchain.unica.it/balzac/docs/)           | Yes   | USA     | USA       |2017.12|2017.12   |
+| [Byteball](https://byteball.org)       | Byteball       |  JSON                                                       | Yes   | RU    |             |2016.12|2016.12   |
+|[Cardano](https://cardanofoundation.org)| [IELE](https://iohk.io/blog/iele-a-new-virtual-machine-for-the-blockchain) |  Plutus (Haskell inspired)                                  | no    |HK       |Switzerland|2015   |
+| [Corda](https://www.corda.net/)        | ?              |
+| [DFINITY](https://dfinity.org/)        | EVM?           | Ethereum compatible (aka Solidity, Serpent, etc.)                                           | No |  |  |   |  |
+| [EOS](https://eos.io/)                 | EVM / eWASM    |  C/C++ (compiles to WASM)                                   | Yes   |       |             |       |2018.06    
+| [Ethereum](https://www.ethereum.org/)  | EVM            |  Solidity                                                   | Yes   | CA    |Switzerland  |2014.04|2015.07   |
+| [Ethereum Classic](https://ethereumclassic.github.io/)| EVM |  Solidity                                              | Yes   | ^^^   | no          | ^^^   | ^^^      |
+| [Exonum](https://exonum.com)           | ?              |  Rust. Java bindings TBD                                    | No    | UA    |Netherlands  |       |2017.07   |
+| hyperledger                            | Sandbox        |  ?                                                          | ?     |    
+| [Lisk](https://lisk.io/)               | N/A            |  Javascript
+| [Nem](https://nem.io/)                 | Offchiain      |  ?                                                          | ?     |
+| [Neo](https://neo.org/)                | NeoVM          |  1st batch: dotNet; 2nd: Java,Kotlin; 3rd: C,C++,GO,Py,JS (TBD)| Yes| China | China       |2014.06|2016.10   |
+| [Neblio](https://nebl.io)              | ?              |  REST-API, Python,JS, .NET(C# & VB.NET), Objective-C, Java, Node.js, GO, PHP | Yes| USA | USA       |2017.01|2017.07   |
+| NXT                                    | ?              |  ?                                                          | Yes   |    
+| OmniLayer                              | ?              |
+| [Qtum](https://qtum.org/)              | EVM            |  Solidity                                                   | Yes   |Singapore|Singapore  |2016   |2017.09   |
+| quorum                                 | ?              |  ?                                                          | ?     |    
+| [Radix](https://www.radixdlt.com/)     | ?              | Scrypto (Based on JavaScript/TypeScript) | Yes | UK | UK     | 2018  | |
+| [Rootstock](http://www.rsk.co/)        | EVM            |  Solidity                                                   | no    |Argentina|Argentina  |2015.11|
+| [Snax](https://snax.one/)                 | EVM / eWASM    |  C/C++ (compiles to WASM)                                   | no   |       |             | 2018.12 |  
+| [Tezos](https://www.tezos.com)         | ?              |  Michelson                                                  | no    |
+| [Ubiq](http://www.ubiqsmart.com/)      | EVM            |  Solidity                                                   | Yes   | CA    | CA ?        |       |2017.01   |
+| [Universa](https://www.universa.io/)   | ?              |
+| [Urbit](https://urbit.org/)            | ?              |  Hoon                                                       | Yes   |    
+| [Waves](https://wavesplatform.com/)    | ?              |  _NA_                                                       | Yes   |RU     |  ?          |2016   |2016.11   | 
+
+
+
 ### 1 - Ethereum 
 
 *Ethereum is a gold standard in the world of smart contracts and has the biggest capitalisation among other platforms. The majority of token sales happen on the Ethereum platform, using the ERC-20 token standard. There are various ERC standards and more are coming up as we speak. Implements a Turing-complete language on its blockchain, a prominent smart contract framework. Ethereum was specifically created and designed to support smart contrats. Smart Contrats can be programmed in a special programmming language called Ethereum Solidity. This language was created by Ethereum and uses a syntax that resembles JavaScript. The link to documentation site can be found [here](http://www.ethdocs.org/en/latest/introduction/web3.html#smart-contracts).*
