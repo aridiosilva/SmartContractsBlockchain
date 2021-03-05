@@ -109,6 +109,16 @@ contract SimpleStorage {
 *Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator. Smart Contracts in Bitcoin platform it´s a lot more limited compared to Ethereum Platform.*
 
 ```solidity
+pragma solidity ^0.4.24;
+import "./trc20.sol";
+
+contract ITokenDeposit is TRC20 {
+    function deposit() public payable;
+    function withdraw(uint) public;
+}
+```
+
+```solidity
 /// TRC20.sol -- API for the TRC20 token standard
 
 // See <https://github.com/tronprotocol/tips/blob/master/tip-20.md>.
