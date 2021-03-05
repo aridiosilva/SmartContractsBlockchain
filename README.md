@@ -51,7 +51,7 @@ End clients interact with a smart contract through transactions. Such transactio
 
 ## Blockchain Platforms Supporting Smart Contracts
 
-### Ethereum
+### 1 - Ethereum 
 
 *Ethereum is a gold standard in the world of smart contracts and has the biggest capitalisation among other platforms. The majority of token sales happen on the Ethereum platform, using the ERC-20 token standard. There are various ERC standards and more are coming up as we speak. Implements a Turing-complete language on its blockchain, a prominent smart contract framework. Ethereum was specifically created and designed to support smart contrats. Smart Contrats can be programmed in a special programmming language called Ethereum Solidity. This language was created by Ethereum and uses a syntax that resembles JavaScript. The link to documentation site can be found [here](http://www.ethdocs.org/en/latest/introduction/web3.html#smart-contracts).*
 
@@ -70,53 +70,25 @@ contract SimpleStorage {
 }
 ```
 
-### Bitcoin
+### 2 - Bitcoin
 
 *Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator. Smart Contracts in Bitcoin platform it´s a lot more limited compared to Ethereum Platform.*
 
-### NEM
-
-Scalability is the most critical thing about NEM’s decentralized application. While ETH does a maximum of 15 transactions per second, NEM reportedly manages hundreds of transactions per second. The NEM foundation has given security and availability a priority so entrepreneurs deal with other problems and not technical difficulties.While NEM is reportedly the faster, safer and easier technology, Ethereum provides a broader base for the creation of custom DApps.
-Where Ethereum is targeting companies intend to rebuild internal networks in the next 5 to 10 years, NEM is targeting companies looking for a fast, secure, and ready to use and handle solution that’s current.
-An example of NEM code is given below:
-
-```javascript
-
-//Include the library
-var nem require(".. ./build/index.js")
-
-/ Create an NIS endpoint object
- var endpoint - nem.model.objects.create( endpoint
-// Create a common object holding key
-var common - nem.model.objects.create("common
- I/Create an un-prepared transfer transaction object
-var transferTransaction nem.model.objects
-
-// Prepare the transfer transaction object
- var transactionEntity nem.model.transactions
-// Serialize transfer transaction and announce
-nem.model.transactions.send(common,
-transactionEntity, endpoint);
-```
-
-The link to the documentation site can be found [here](https://nemproject.github.io/)
-
-
-### Ripple (Codius)
+### 3 - Ripple (Codius)
 
 *Ripple is a real-time gross payment system first-conceived in 2004 by Ryan Fugger and officially launched in 2012. ts goal is to eliminate the high transaction fees and processing delays of online payments by providing a frictionless experience when sending money globally with the power of blockchain technology. But Smart contract development halted in 2015.*
 
  
-### EOS.Io
+### 4 - EOS.Io
 
 *A blockchain platform for smart contracts.*
 
 
-### Tezos
+### 5 - Tezos
 
 *A blockchain platform modifying its own set of rules with minimal disruption to the network through an on-chain governance model.*
 
-### Hyperledger Fabric (HLF)
+### 6 - Hyperledger Fabric (HLF)
 
 *Call its smart contracts chaincode. HLF is an enterprise private blockchain, built with great flexibility, which makes it very useful for businesses as their business rules change after approximately 7 years. Most other blockchains are not built considering flexibility. The three most important functions are:
 
@@ -224,14 +196,14 @@ func main() {
 
 The link to documentation site can be found [here](https://hyperledger-fabric.readthedocs.io/).*
 
-### iOlite
+### 7 - iOlite
 
 Is a product which focuses on the mass adoption of smart contract technology by providing an easy to use engine which is capable of understanding natural language to be compiled to smart contract code It is based on FAE (Fast adaption engine) FAE is capable of converting natural language into smart contract code.*
 
  
 *The link for documentation site can be found [here](https://iolite.io/documentation).*
 
-### Stellar Smart Contracts
+### 8 - Stellar Smart Contracts
 
 *Stellar smart contracts (SSC) are much different from Ethereum smart contracts. They are not Turing complete and are implemented as an agreement between multiple parties and enforced by transactions. 
 
@@ -257,7 +229,7 @@ return StellarConfig.server.submitTransaction(transaction);
 
 You can read more about stellar smart contracts in the official documentation [here](https://www.stellar.org/developers/guides/walkthroughs/stellar-smart-contracts.html). 
  
-### Cardano
+### 9 - Cardano
 
 *Similar to Ethereum, Cardano is a smart contract platform however, Cardano offers scalability and security through layered architecture. Cardano’s approach is unique in the space itself since it is built on scientific philosophy and peer-reviewed academic research. The contact language used is Plutus.*
 
@@ -270,6 +242,34 @@ add : Nat -> Nat -> Nat {
     }
 }
 ```
+
+### NEM
+
+*Scalability is the most critical thing about NEM’s decentralized application. While ETH does a maximum of 15 transactions per second, NEM reportedly manages hundreds of transactions per second. The NEM foundation has given security and availability a priority so entrepreneurs deal with other problems and not technical difficulties.While NEM is reportedly the faster, safer and easier technology, Ethereum provides a broader base for the creation of custom DApps.
+
+Where Ethereum is targeting companies intend to rebuild internal networks in the next 5 to 10 years, NEM is targeting companies looking for a fast, secure, and ready to use and handle solution that’s current.
+
+An example of NEM code is given below:
+
+```javascript
+//Include the library
+var nem require(".. ./build/index.js")
+
+/ Create an NIS endpoint object
+ var endpoint - nem.model.objects.create( endpoint
+// Create a common object holding key
+var common - nem.model.objects.create("common
+ I/Create an un-prepared transfer transaction object
+var transferTransaction nem.model.objects
+
+// Prepare the transfer transaction object
+ var transactionEntity nem.model.transactions
+// Serialize transfer transaction and announce
+nem.model.transactions.send(common,
+transactionEntity, endpoint);
+```
+
+The link to the documentation site can be found [here](https://nemproject.github.io/)
 
 ## Smart Contract Eexecution
 
@@ -285,7 +285,7 @@ A blockchain-based smart contract is visible to all users of said blockchain. Ho
 
 Issues in Ethereum smart contracts, in particular, include ambiguities and easy-but-insecure constructs in its contract language Solidity, compiler bugs, Ethereum Virtual Machine bugs, attacks on the blockchain network, the immutability of bugs and that there is no central source documenting known vulnerabilities, attacks and problematic constructs.
 
-## Caracteristics of Smart Legal Contracts
+##Caracteristics of Smart Legal Contracts
 
 Smart legal contracts are distinct from smart contracts. As mentioned above, a smart contract is not necessarily legally enforceable as a contract. On the other hand, a smart legal contract has all the elements of a legally enforceable contract in the jurisdiction in which it can be enforced and it can be enforced by a court or tribunal. Therefore, while every smart legal contract will contain some elements of a smart contract, not every smart contract will be a smart legal contract.
 
