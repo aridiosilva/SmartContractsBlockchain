@@ -65,44 +65,18 @@ A Ricardian contract is a type of smart legal contract.
 
 ## How are Smart Contracts used ?
 
-
 Nowadays, businesses want to streamline their processes and accelerate current workflows. Most are using tools like marketing automation platforms to simplify their operations to the hilt.
 
 Businesses can leverage smart contracts for these and a host of other applications. Here are some smart contract examples that digital contracts provide.
 
 ![simple to complex use](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/Smart-Contracts-Use-Cases-Simple-to-Complex.png)
 
-### a) Legal Use
-
-The obvious sector that would take advantage of smart contracts is the legal profession. These new digital forms of contracts will change how documents will be certified.
-
-Smart contracts offer a cost-efficient, impartial solution for people. The need for cumbersome notarization decreases.
-
-### b) Government Use
-
-With the help of smart contracts, government agencies can easily enact deals to uphold democratic and legal endeavors
-
-A city or municipal government can integrate smart contracts in its voting system. The likelihood of any election-related crimes will become impossible since votes are stored in a highly-secured distributed ledger.
-
-### c) Healthcare Use
-
-Smart contracts help healthcare companies provide confidence to patients that their personal information is safe. They can enhance the insurance trial processes and offer easy access to cross-institutional data.
-
-Digital contracts allow seamless monitoring of patient interactions and easy tracking of system efficiencies. Combining smart contracts with reliable medical practice management software solutions can help elevate productivity.
-
-### d) Real Estate Use
-
-Real estate firms can use smart contracts for signing deals between buyers and sellers, renters and owners, etc.
-
-One online real estate marketplace, Propy, is already among the many uses of smart contracts. Buyers can easily search and buy using the system, which offers unparalleled fairness and legality.
-
-To further boost productivity, it’s good to integrate digital contracts with today’s best real estate management software solutions.
-
-### e) Merchandising Use
-
-Supply chains usually involve negotiations. They would stand to benefit immensely from smart contracts. Supplier and logistics firms can use smart contracts to minimize risks and automate tasks like invoicing and product releasing. 
-
-The system can execute deals and manage approvals. Smart contracts can be used regardless of the type of marketplace or the things being sold.
+> - **a) Legal Use** - *The obvious sector that would take advantage of smart contracts is the legal profession. These new digital forms of contracts will change how documents will be certified. Smart contracts offer a cost-efficient, impartial solution for people. The need for cumbersome notarization decreases.*
+> - **b) Government Use** - *With the help of smart contracts, government agencies can easily enact deals to uphold democratic and legal endeavors. A city or municipal government can integrate smart contracts in its voting system. The likelihood of any election-related crimes will become impossible since votes are stored in a highly-secured distributed ledger.*
+> - **c) Healthcare Use** - *Smart contracts help healthcare companies provide confidence to patients that their personal information is safe. They can enhance the insurance trial processes and offer easy access to cross-institutional data. Digital contracts allow seamless monitoring of patient interactions and easy tracking of system efficiencies. Combining smart contracts with reliable medical practice management software solutions can help elevate productivity.*
+> - **d) Real Estate Use** - *Real estate firms can use smart contracts for signing deals between buyers and sellers, renters and owners, etc. One online real estate marketplace, Propy, is already among the many uses of smart contracts. Buyers can easily search and buy using the system, which offers unparalleled fairness and legality. 
+To further boost productivity, it’s good to integrate digital contracts with today’s best real estate management software solutions.*
+> - **e) Merchandising Use** - *Supply chains usually involve negotiations. They would stand to benefit immensely from smart contracts. Supplier and logistics firms can use smart contracts to minimize risks and automate tasks like invoicing and product releasing. The system can execute deals and manage approvals. Smart contracts can be used regardless of the type of marketplace or the things being sold.*
 
 # How does a smart contract work?
 
@@ -111,15 +85,10 @@ A smart contract is a computer application that operates inside a blockchain. Tw
 It’s like a typical application that implements some business rules. It can only use a blockchain as a database. Here are the key aspects of a smart contract:
 
 > -**1- Identify Agreement** - *Parties engaged in the smart contract determine a shared, agreed opportunity and intended results. Possible agreements are vast, from simple business transactions and rights transfer to asset swaps*
-
 > -**2- Set Conditions** - *Parties can decide either to initiate their digital contracts by themselves or by fulfilling certain criteria such as natural disasters or financial market movements. Other conditions that could launch smart contracts include religious occasions or important holidays.*
-
 > -**3- Code the Business Logic** - *Like other computer programs, a smart contract is an application designed to automatically perform once the conditional parameters are reached.*
-
 > -**4- Encryption & Blockchain Technology** - *In a blockchain, encryption is used. This provides the needed security in authenticating and verifying the messages exchanged among the involved parties.*
-
 > **5- Processing & Execution** - *A smart contract gets written to a block in a blockchain iteration. This occurs after reaching consensus via validation and authentication. Once the code is executed, the results are memorized for verification and compliance.*
-
 > -  **6- Network Updates** - *Every computer connected to a blockchain network automatically updates its ledgers. This demonstrates the blockchain’s new state. Upon authentication and posting, no one can alter a record in a blockchain. Only append-only actions can be done.*
 
 # What are the benefits of Smart Contracts?
