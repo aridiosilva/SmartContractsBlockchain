@@ -223,60 +223,12 @@ The link to documentation site can be found [here](https://hyperledger-fabric.re
 
 Is a product which focuses on the mass adoption of smart contract technology by providing an easy to use engine which is capable of understanding natural language to be compiled to smart contract code It is based on FAE (Fast adaption engine) FAE is capable of converting natural language into smart contract code.*
 
-```
-//it will insert a column in the specified location (AfterThisColumn) to store result
-Function ErrorCorrelation(Output_DataTable, WaveOneName, WaveTwaName, After
-wave/T Output_DataTable //wave reference to the Output_DataTable text wa
-string WaveOneName
-string Wavel woName
-string Afterl hisColumn
-String TistalumnName
-Check if the Output_DataTable wave provided exists
-if(waveexists(Output_DataTable)O)
-PrintAbort(The error correlation function was called using an output data
-endif
-/need to check here that both of the required columns exist. if they don't the
-if (FindDimLabel(Output_DataTable, 1, WaveOneName)2FindDimLabel(Out
-return O
-endif
-wariable StartTime
-variable Endlime
-Variable StartPoint
-Variable EndPoint
-first insert a column into the output table to hold the error correlations
-variable ColumnBeforelnsert 1 + FindDimLabel(Output DataTable, 1, AfterTh
-InsertPoints M-1 ColumnBeforelnsert, 1, Output_DataTable //insert a colum
-SetDimLabel 1, ColumnBeforelnsert, $ThisColumnName, Output_DataTable //a
-wave index-Time = $ olíteDEpath("CurrentDRS","Index-Time")
-variable ErrorCorrelation_Thislnteg
-variable index=
-variable NoOfOutputTableRows DimSize(Output DataTable, O)
-if(cmpstr(llll, Output. DataTable(index [%S"DateTime"D-0&& str2num(O
-StartTime-DateStr2Date1 904(Output-DataTable[index][%S"DateTime
-Endtime = StartTime+ str2num(Output. DataTable[index][%S"Duratior
-StartPoint ForBinarySearch(Index_Time, StartTime)
-Endpoint = ForBinarySearch(index-Time, Endtime)
-duplicate/0/R[StartPoint, EndPoint] $ioliteDFpath("CurrentDRS",Wa
-duplicate/0/R [StartPoint, EndPoint] SioliteDFpath("CurrentDRS",Wav
-wave WaveOne-Snippet= $ioliteDFpath("Temp",WaveOneName + "-Snil
-wave WaveTwo-Snippet = $ialiteDFpath("Temp",WaveTwoName + "-Sni
-//need to remove NaNs from both waves, as these will mess up the er
-TrimNaNsTwoWaves(WaveOne_Snippet, WaveTwo_Snippet)
-ErrorCorrelation_Thislnteg- StatsCorrelation(WaveOne_Snippet, Wav
-Output-DataTable(index!%SThisColumnName] = num2str(ErrorCorrela
-endif
-index+= 1
-while(index NoOfOutputTableRows)
-KillWaves /Z WaveOne Snippet, WaveTwo Snippet
-end
-
-```
  
 *The link for documentation site can be found [here](https://iolite.io/documentation).*
 
 ### Stellar Smart Contracts
 
-*Stellar smart contracts (SSC) are much different from Ethereum smart contracts. They are not Turing complete and are implemented as an agreement between multiple parties and enforced by transactions. You can read more about stellar smart contracts in the official documentation [here](https://www.stellar.org/developers/guides/walkthroughs/stellar-smart-contracts.html). 
+*Stellar smart contracts (SSC) are much different from Ethereum smart contracts. They are not Turing complete and are implemented as an agreement between multiple parties and enforced by transactions. 
 
 An SSC is expressed as compositions of transactions that are connected and executed using various constraints. Some of the constraints are: 
 
@@ -285,6 +237,20 @@ b) **Batching/ Atomicity** — What operations must all occur together or fail? 
 c) **Sequence** — In what order should a series of transactions be processed? What are the limitations and dependencies? e 
 d) **Time Bounds** — When can a transaction be processed?*
 
+```
+A sample code is given below:
+const newKey = Stellar.Keypair.random();
+const transaction = new Stellar.TransactionBuilder(ownerAccount)
+    .addOperation(Stellar.Operation.createAccount({
+        destination: escrowPubKey,
+        startingBalance: '2.5000000'
+    }))
+    .build();
+transaction.sign(ownerKeypair);
+return StellarConfig.server.submitTransaction(transaction);
+```
+
+You can read more about stellar smart contracts in the official documentation [here](https://www.stellar.org/developers/guides/walkthroughs/stellar-smart-contracts.html). 
  
 > - **Cardano** -  *Similar to Ethereum, Cardano is a smart contract platform however, Cardano offers scalability and security through layered architecture. Cardano’s approach is unique in the space itself since it is built on scientific philosophy and peer-reviewed academic research. The contact language used is Plutus.*
 
