@@ -1,5 +1,7 @@
 # BlockChain Smart Contracts
 
+The goal of blockchain is to allow digital information to be recorded and distributed, but not edited.
+
 The concept and idea of Smart Contracts was born with Nick Szabo in his paper originally published in 1997, as we can see the the link below:
 
 - [The Idea of Smart Contracts Nick Szabo published in 1997](https://nakamotoinstitute.org/the-idea-of-smart-contracts/)
@@ -612,5 +614,7 @@ Whilst we have to admit that blockchain is still in its infancy. Many issues lik
 To help you make sense of this complicated landscape we applied a simple SWOT analysis to the blockchain and integrated our iOlite’s solutions in this analysis.
 
 ![swot analysis](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/Blockchain%20SWOT%20Analysis%20of%20BLOCKCHAIN%20TECHNOLOGY__.png)
+
+
 
 
