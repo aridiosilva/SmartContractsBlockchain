@@ -13,9 +13,11 @@ Blockchains are far more secure, inexpensive, and faster versus other technologi
 
 ##  What are Blockchain Smart Contracts ?
 
-A smart contract is a computer program or a transaction protocol which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement.
+(1) According to Nick Szabo in his “The Idea of Smart Contracts,” smart contracts are blockchain applications that express business logic associated with a transaction and execute on a blockchain platform. Smart contract code determines what transactions are recorded into the blockchain and the information they will contain. Through the use of smart contracts, many kinds of contractual clauses may be made partially or fully self-executing and self-enforcing. 
 
-Other simple smart contract definition is that it is a group of computer codes that can self-execute when predetermined conditions are met. A blockchain or a distributed ledger holds the transaction outcomes. People typically pay for the services of a notary public or a lawyer to have their documents processed. With smart contracts, they can create, enforce, and complete a deal or agreement by themselves. These allow people to execute deals without any third party. Smart contracts don’t only establish the penalties and other obligations of an agreement like how a traditional contract does. They can carry them out automatically.  These digital contracts offer numerous potential applications in various industries. Smart contracts already work in tandem with the predicted currency of the future–bitcoins.
+(2) A smart contract is a computer program or a transaction protocol which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement.
+
+(3) Another simple smart contract definition is that it is a group of computer codes that can self-execute when predetermined conditions are met. A blockchain or a distributed ledger holds the transaction outcomes. People typically pay for the services of a notary public or a lawyer to have their documents processed. With smart contracts, they can create, enforce, and complete a deal or agreement by themselves. These allow people to execute deals without any third party. Smart contracts don’t only establish the penalties and other obligations of an agreement like how a traditional contract does. They can carry them out automatically.  These digital contracts offer numerous potential applications in various industries. Smart contracts already work in tandem with the predicted currency of the future–bitcoins.
 
 ## Three Essential Aspects of a Smart Contract
 
