@@ -601,3 +601,14 @@ How are smart contracts enforced? There are existing laws that already recognize
 
 Smart contracts help you exchange money, property, shares, and virtually anything of value. You can all these in a problem-free and transparent way, without needing the traditionally ubiquitous middleman. Using smart contracts is simply inevitable that as technology continues to change how people conduct business as we know it. This new way of creating and executing contracts is already providing numerous advantages to existing users. It includes a very high level of security, cost and time savings, anti-tampering feature. 
 
+# SWOT Analysis of Blockchain Technology
+
+In a world filled with emerging technologies, the blockchain technology is arguably one of the most exciting, being labeled as ‘disruptive’ and ‘innovative’ by many. Despite often being associated abundantly with Bitcoin and other cryptocurrencies, the underlying technology, this distributed ledger, the ‘blockchain’ has been receiving attention from a variety of industries. The concept of recording transactions in a secure, stable and chronological way, has led to possible applications in many areas.
+
+Whilst we have to admit that blockchain is still in its infancy. Many issues like unwanted centralization, slow transaction verification times and low throughput aren’t easy to solve. We have to try and find the balance between security and speed.
+
+To help you make sense of this complicated landscape we applied a simple SWOT analysis to the blockchain and integrated our iOlite’s solutions in this analysis.
+
+![swot analysis](https://github.com/aridiosilva/Blockchain/blob/main/Blockchain%20SWOT%20Analysis%20of%20BLOCKCHAIN%20TECHNOLOGY_.png)
+
+
