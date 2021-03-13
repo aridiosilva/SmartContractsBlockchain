@@ -618,5 +618,3 @@ To help you make sense of this complicated landscape we applied a simple SWOT an
 ![swot analysis](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/Blockchain%20SWOT%20Analysis%20of%20BLOCKCHAIN%20TECHNOLOGY__.png)
 
 
-
-
