@@ -528,6 +528,7 @@ One proposal for using bitcoin for replicated asset registration and contract ex
 
 As of 2015, UBS was experimenting with "smart bonds" that use the bitcoin blockchain[46] in which payment streams could hypothetically be fully automated, creating a self-paying instrument.
 
+
 ## Security in Smart Contracts
 
 A blockchain-based smart contract is visible to all users of said blockchain. However, this leads to a situation where bugs, including security holes, are visible to all yet may not be quickly fixed. Such an attack, difficult to fix quickly, was successfully executed on The DAO in June 2016, draining US$50 million in Ether while developers attempted to come to a solution that would gain consensus. The DAO program had a time delay in place before the hacker could remove the funds; a hard fork of the Ethereum software was done to claw back the funds from the attacker before the time limit expired.
