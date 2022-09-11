@@ -1,3 +1,5 @@
+
+
 # BlockChain Smart Contracts
 
 The goal of blockchain is to allow digital information to be recorded and distributed, but not edited.
